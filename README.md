@@ -25,17 +25,18 @@ Invoice Copilot is a Python + Streamlit project that automatically extracts stru
 
 2. Create a virtual environment and activate it:
     python3 -m venv .venv
+   
     source .venv/bin/activate  # Linux / macOS
     .venv\Scripts\activate     # Windows
 
-3. Install dependencies:
+4. Install dependencies:
     pip install --upgrade pip
     pip install -r requirements.txt
 
-4.  Set up environment variables:
+5.  Set up environment variables:
     Create a .env file in the root directory with:
 
     OPENROUTER_API_KEY=your_openrouter_api_key
 
-5. Run the Streamlit App
+6. Run the Streamlit App
    streamlit run app.py
